@@ -72,24 +72,20 @@ npm install
 ### 3. Instalar dependências do Frontend
 ```bash
 cd ../frontend
-npm install
-# ou
-pnpm install
+npm install --force
 ```
 
 ### 4. Executar o Backend
 ```bash
 cd backend
-npm run dev
+node server.js
 ```
 O servidor estará rodando em `http://localhost:3001`
 
 ### 5. Executar o Frontend
 ```bash
 cd frontend
-npm run dev --host
-# ou
-pnpm run dev --host
+npm run dev
 ```
 A aplicação estará disponível em `http://localhost:5173`
 
